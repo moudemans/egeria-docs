@@ -54,7 +54,16 @@ If using MacOS with HomeBrew installed, Helm can be simply installed with:
     brew install helm
     ```
 
-### Other platforms (Linux, Windows)
+### Linux
+If using Linux with Snap installed, Helm can be simply installed with:
+
+!!! cli "Installing Helm on Linux"
+```console
+sudo snap install helm --classic
+```
+
+
+### No package manager or other platforms
 
 See the [Installation Guide :material-dock-window:](https://helm.sh/docs/intro/install/){ target=helm } for more ways to install Helm.
 
